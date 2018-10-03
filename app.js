@@ -1,5 +1,5 @@
 // app.js
 
-const greetings = require('./greetings');
+const greetings = require('./src/greetings.js');
 
 console.log(greetings('Totoro'));
