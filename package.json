@@ -4,7 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "clean": "rm -rf node_modules",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +15,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "express": "^4.16.4",
     "jest": "^23.6.0",
     "supertest": "^3.3.0"
   },
