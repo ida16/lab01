@@ -1,7 +1,7 @@
 //const require = require("supertest");
 
 const request = require("supertest");
-const api = require("../app");
+const api = require("../../app");
 
 describe("GET /greeting/:name endpoint", () => {
     it("should return a 200 OK status code", async() => {
